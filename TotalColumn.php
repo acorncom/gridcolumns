@@ -73,7 +73,7 @@ class TotalColumn extends CDataColumn {
 		if($this->name===null && $this->value===null)
 			throw new CException(Yii::t('cols','Either "name" or "value" must be specified for TotalColumn.'));
 		if(is_numeric($this->init))
-			$this->l=$this->init;
+			$this->_total=$this->init;
 		elseif(is_string($this->init))
 			$this->_total=$this->evaluateExpression($this->init);
 	}
