@@ -63,7 +63,7 @@ class TotalColumn extends CDataColumn {
 	/**
 	* @var float The total.
 	*/
-	private $_total=0;
+	protected $_total=0;
 
 	/**
 	* Initialises the column.
