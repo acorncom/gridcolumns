@@ -1,0 +1,16 @@
+{
+    "name": "acorncom/gridcolumns",
+    "description": "Grid Columns for Yii",
+    "keywords": [
+        "cgridview",
+        "columns"
+    ],
+    "authors": [
+        {
+            "name": "Yeti"
+        },
+        {
+            "name": "David Baker"
+        }
+    ]
+}
